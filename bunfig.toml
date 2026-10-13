@@ -1,0 +1,4 @@
+[install]
+# Refuse to install npm package versions published less than 5 days ago,
+# reducing exposure to freshly compromised or malicious releases.
+minimumReleaseAge = 432000

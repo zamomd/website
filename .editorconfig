@@ -1,0 +1,31 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+indent_size = 4
+
+[*.{js,ts,svelte,astro,html,css}]
+max_line_length = 120
+ij_javascript_use_double_quotes = true
+ij_javascript_force_quote_style = true
+ij_javascript_use_semicolon_after_statement = false
+ij_javascript_force_semicolon_style = true
+ij_typescript_use_double_quotes = true
+ij_typescript_force_quote_style = true
+ij_typescript_use_semicolon_after_statement = false
+ij_typescript_force_semicolon_style = true
+
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+[*.toml]
+indent_style = space
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
